@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Red Scout Bajío</title>
+<meta name="description" content="Zonas de camping y hiking en el Bajío, mapa scout y biblioteca de recursos creada por y para la comunidad scout.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1B4332">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Red Scout">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Red Scout Bajío">
+<meta property="og:description" content="Zonas de camping y hiking, mapa scout y biblioteca de recursos para la comunidad scout del Bajío.">
+<meta property="og:url" content="https://scoutsbajio-coder.github.io/red-scout-bajio-app/">
+<meta property="og:image" content="https://scoutsbajio-coder.github.io/red-scout-bajio-app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-site-verification" content="WP-l9l-iO3G5bsklZKS8cclCP14BFGc9dz0gziGy2pI">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#explorar"><img src="favicon-64.png" alt="" width="34" height="34"><span>Red Scout Bajío</span></a>
+  <nav class="tabs" aria-label="Principal">
+    <a href="#explorar" data-tab="explorar"><i class="fas fa-compass"></i><span>Explorar</span></a>
+    <a href="#mapa" data-tab="mapa"><i class="fas fa-map-location-dot"></i><span>Mapa</span></a>
+    <a href="#recursos" data-tab="recursos"><i class="fas fa-book-open"></i><span>Recursos</span></a>
+  </nav>
+  <button type="button" class="btn-instalar" style="display:none"><i class="fas fa-download"></i> Instalar app</button>
+</header>
+
+<main>
+  <!-- Filtros compartidos por Explorar y Mapa -->
+  <div class="bar" id="bar" hidden>
+    <div class="in">
+      <div class="fila">
+        <div class="bus"><i class="fas fa-search"></i>
+          <label for="q" class="sr">Buscar lugar</label>
+          <input id="q" type="search" autocomplete="off" placeholder="Buscar lugar, municipio o actividad...">
+        </div>
+        <button id="cerca" type="button" class="ic" aria-label="Ordenar por cercanía" title="Cerca de mí"><i class="fas fa-location-crosshairs"></i></button>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filtrar por estado"></div>
+    </div>
+  </div>
+
+  <section id="explorar" class="vista">
+    <div class="hero">
+      <picture>
+        <source media="(min-width:768px)" srcset="banner_optimizado.webp">
+        <img src="banner_movil.webp" alt="" width="1536" height="1536" fetchpriority="high">
+      </picture>
+      <div>
+        <h1>Zonas de Camping y Hiking</h1>
+        <p>Explora los mejores lugares para camping, rutas de hiking y una biblioteca de recursos creada por y para la comunidad scout.</p>
+      </div>
+    </div>
+    <div class="cnt" id="cnt" aria-live="polite"></div>
+    <div class="grid" id="grid"><p class="vacio">Cargando lugares…</p></div>
+  </section>
+
+  <section id="mapa" class="vista">
+    <div class="off" id="off" role="status">Sin conexión: el mapa base necesita internet.</div>
+    <div id="map"></div>
+  </section>
+
+  <section id="recursos" class="vista">
+    <div class="sec">
+      <h2>Biblioteca de Recursos</h2>
+      <div class="rg">
+        <a class="rc" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1QgYGAiWkpjvBsah6pnSr-0KX6hDaFRTJ"><i class="fas fa-book" style="color:#60a5fa"></i><div><b>Manuales de Nudos</b><small>Guías descargables en PDF</small></div></a>
+        <a class="rc" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1LA5rhzvKXHwyckqakuojT4gVe-qTceNx?usp=sharing"><i class="fas fa-utensils" style="color:#4ade80"></i><div><b>Recetario de Patrulla</b><small>Cocina sin utensilios</small></div></a>
+        <a class="rc" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1GT6PBA3k0CyMMBERJi2zUTF5pcv9Yfw9?usp=sharing"><i class="fas fa-shield-alt" style="color:#f87171"></i><div><b>Seguridad Scout</b><small>Protocolos de emergencia</small></div></a>
+        <a class="rc" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1n0DDVah8YlhRtla0p6cXLZKl1Nved_sz?usp=sharing"><i class="fas fa-compass" style="color:#facc15"></i><div><b>Manuales de Técnica Scout</b><small>Orientación, pionerismo y más</small></div></a>
+        <a class="rc" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1R0GXPNdjvCgmz8FPf8vYXYAKA-T2VpC5"><i class="fas fa-flag" style="color:#facc15"></i><div><b>Actividades Scout</b><small>Dinámicas, grandes juegos y rallys</small></div></a>
+        <a class="rc" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1Oyb-WQnaNyPFaZERi4xU_eeNmbqXE6rp?usp=sharing"><i class="fas fa-fleur-de-lis" style="color:#c084fc"></i><div><b>Ceremonias y Mística</b><small>Tradiciones y espiritualidad</small></div></a>
+      </div>
+      <div class="col">
+        <h2 style="border:0;padding:0;justify-content:center">¿Conoces un lugar increíble?</h2>
+        <p style="color:#4b5563;max-width:480px;margin:0 auto 20px">Ayúdanos a crecer nuestra base de datos. Mándanos la ubicación y detalles para agregarlos a la red.</p>
+        <a class="wa" target="_blank" rel="noopener" href="https://wa.me/524621419906?text=Hola,%20quisiera%20sugerir%20un%20nuevo%20lugar%20para%20la%20Red%20Scout%20Baj%C3%ADo"><i class="fab fa-whatsapp" style="font-size:22px"></i> Mandar nuevo lugar</a>
+        <p><a href="mailto:scoutsbajio@gmail.com" style="color:#1D4ED8;font-weight:600"><i class="fas fa-envelope"></i> scoutsbajio@gmail.com</a></p>
+      </div>
+    </div>
+    <p class="foot">Clan Centzon Huitznahuac | Jonathan Alexander</p>
+  </section>
+</main>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="pwa.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
