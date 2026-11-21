@@ -1,0 +1,551 @@
+{
+  "version": 1,
+  "lugares": [
+    {
+      "id": "presa-peralillo",
+      "nombre": "Presa Peralillo",
+      "municipio": "Guanajuato",
+      "estado": "Guanajuato",
+      "lat": 21.058444,
+      "lng": -101.169528,
+      "descripcion": "Bosque de encino y clima fresco, ideal para realizar campamentos, caminatas y actividades de exploración scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-snowflake",
+          "texto": "FRÍO"
+        },
+        {
+          "icono": "fa-tree",
+          "texto": "BOSQUE"
+        }
+      ],
+      "color": "green",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLygYbqIRRG3old1ln0NiNmduR-tH7XY3Kljw8gqNYKy7x-f-AxZjvtfKi&s=10"
+    },
+    {
+      "id": "ex-hacienda-canada-de-ortega",
+      "nombre": "Ex Hacienda Cañada de Ortega",
+      "municipio": "Salamanca",
+      "estado": "Guanajuato",
+      "lat": 20.752219,
+      "lng": -101.174934,
+      "descripcion": "Área natural con historia y senderos, ideal para realizar caminatas, campamentos y actividades de exploración.",
+      "etiquetas": [
+        {
+          "icono": "fa-history",
+          "texto": "HISTORIA"
+        },
+        {
+          "icono": "fa-mountain",
+          "texto": "CAÑÓN"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkzOuae4Ddz4LDyULXf3YwSsRuaVjZambu6Nx6pypDA&s=10"
+    },
+    {
+      "id": "el-piloncillo",
+      "nombre": "El Piloncillo",
+      "municipio": "Irapuato",
+      "estado": "Guanajuato",
+      "lat": 20.6798708,
+      "lng": -101.4241984,
+      "descripcion": "Terreno semidesértico con espacios naturales, ideal para caminatas, orientación y prácticas de exploración scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-hiking",
+          "texto": "RÁPEL"
+        },
+        {
+          "icono": "fa-sun",
+          "texto": "SEMIDESIERTO"
+        }
+      ],
+      "color": "green",
+      "foto": "https://live.staticflickr.com/206/455543865_af3f8e7114_b.jpg"
+    },
+    {
+      "id": "sierra-de-lobos",
+      "nombre": "Sierra de Lobos",
+      "municipio": "León",
+      "estado": "Guanajuato",
+      "lat": 21.2904809,
+      "lng": -101.655201,
+      "descripcion": "Amplia zona boscosa con senderos, ideal para realizar caminatas, campamentos y actividades de grupo al aire libre.",
+      "etiquetas": [
+        {
+          "icono": "fa-campground",
+          "texto": "AMPLIO"
+        },
+        {
+          "icono": "fa-tree",
+          "texto": "PINOS"
+        }
+      ],
+      "color": "green",
+      "foto": "https://www.liderempresarial.com/wp-content/uploads/2023/01/sierra-de-lobos.jpg"
+    },
+    {
+      "id": "parque-metropolitano",
+      "nombre": "Parque Metropolitano",
+      "municipio": "León",
+      "estado": "Guanajuato",
+      "lat": 21.1738549,
+      "lng": -101.6880051,
+      "descripcion": "Espacio recreativo con áreas naturales, ideal para caminatas, juegos, actividades scout y dinámicas de grupo.",
+      "etiquetas": [
+        {
+          "icono": "fa-water",
+          "texto": "PRESA"
+        },
+        {
+          "icono": "fa-bicycle",
+          "texto": "PISTA"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://escapadas.mexicodesconocido.com.mx/wp-content/uploads/2022/11/parque-metropolitano-leon-portada.jpg"
+    },
+    {
+      "id": "pena-alta",
+      "nombre": "Peña Alta",
+      "municipio": "San Diego de la Unión",
+      "estado": "Guanajuato",
+      "lat": 21.4609613,
+      "lng": -100.9886818,
+      "descripcion": "Zona de bosque de pino y encino, ideal para caminatas, campamentos y actividades de contacto con la naturaleza.",
+      "etiquetas": [
+        {
+          "icono": "fa-leaf",
+          "texto": "NATURALEZA"
+        },
+        {
+          "icono": "fa-mountain",
+          "texto": "ALTURA"
+        }
+      ],
+      "color": "green",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7VgRBYFgxxf_33TSo6FtDNK8iri8FpIQXjOpLAP9qROC2Pqe578uDBdKx&s=10"
+    },
+    {
+      "id": "vergel-de-la-sierra",
+      "nombre": "Vergel de la Sierra",
+      "municipio": "San Felipe",
+      "estado": "Guanajuato",
+      "lat": 21.3847405,
+      "lng": -101.6340377,
+      "descripcion": "Zona boscosa de gran altura, ideal para realizar campamentos, caminatas y diferentes actividades de exploración scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-tree",
+          "texto": "PINOS"
+        },
+        {
+          "icono": "fa-cloud-sun",
+          "texto": "PANORAMA"
+        }
+      ],
+      "color": "green",
+      "foto": "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fvergel-de-la-sierra-altos-de-ibarra-san-felipe-guanajuato-25389384-foto-03.jpg&w=828&q=70"
+    },
+    {
+      "id": "cerro-de-arandas",
+      "nombre": "Cerro de Arandas",
+      "municipio": "Irapuato",
+      "estado": "Guanajuato",
+      "lat": 20.706167,
+      "lng": -101.39359,
+      "descripcion": "Zona de cerro con senderos y áreas naturales. Ideal para practicar orientación, uso de brújula, lectura de mapas y técnicas de exploración scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-compass",
+          "texto": "ORIENTACIÓN"
+        },
+        {
+          "icono": "fa-mountain",
+          "texto": "CERRO"
+        }
+      ],
+      "color": "green",
+      "foto": "https://i0.wp.com/notus.com.mx/wp-content/uploads/2017/10/arandas.jpg?fit=658%2C370&ssl=1"
+    },
+    {
+      "id": "campo-alegre",
+      "nombre": "Campo Alegre",
+      "municipio": "San Joaquín",
+      "estado": "Querétaro",
+      "lat": 20.9130691,
+      "lng": -99.5744012,
+      "descripcion": "Parque amplio rodeado de naturaleza, ideal para realizar campamentos, juegos y dinámicas para grupos scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-shield-alt",
+          "texto": "SEGURO"
+        },
+        {
+          "icono": "fa-campground",
+          "texto": "AMPLIO"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://images.trvl-media.com/place/6361301/8095b05c-38c0-4c32-9182-7ee81300255c.jpg"
+    },
+    {
+      "id": "cerro-del-veinte",
+      "nombre": "Cerro del Veinte",
+      "municipio": "Irapuato",
+      "estado": "Guanajuato",
+      "lat": 20.6794496,
+      "lng": -101.4971843,
+      "descripcion": "Zona de cerro con senderos y pendientes, ideal para caminatas, orientación y actividades de resistencia física.",
+      "etiquetas": [
+        {
+          "icono": "fa-mountain",
+          "texto": "DESAFÍO"
+        },
+        {
+          "icono": "fa-route",
+          "texto": "CAMINATA"
+        }
+      ],
+      "color": "green",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-knE99FryHSY9NQAYS3FMCFJim97dDIkxE9Q1NmcOyX-rg5O1jEAg7qO&s=10"
+    },
+    {
+      "id": "crater-el-rincon-de-parangueo",
+      "nombre": "Cráter El Rincón de Parangueo",
+      "municipio": "Valle de Santiago",
+      "estado": "Guanajuato",
+      "lat": 20.431216,
+      "lng": -101.2497244,
+      "descripcion": "Cráter natural con paisajes únicos, ideal para realizar caminatas, actividades de aventura y exploración.",
+      "etiquetas": [
+        {
+          "icono": "fa-compass",
+          "texto": "AVENTURA"
+        },
+        {
+          "icono": "fa-sun",
+          "texto": "CRÁTER"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://mxc.com.mx/wp-content/uploads/2020/05/DyiHLLNUwAAHK7s-910x1024.jpeg"
+    },
+    {
+      "id": "canon-de-la-garita",
+      "nombre": "Cañón de la Garita",
+      "municipio": "Pénjamo",
+      "estado": "Guanajuato",
+      "lat": 20.5488428,
+      "lng": -101.6641022,
+      "descripcion": "Impresionante cañón natural en la Sierra de Pénjamo, rodeado de imponentes paredes de roca y zonas con agua. Un escenario técnico perfecto para caminatas de exploración y desafíos scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-water",
+          "texto": "ARROYO"
+        },
+        {
+          "icono": "fa-hiking",
+          "texto": "EXPLORACIÓN"
+        }
+      ],
+      "color": "green",
+      "foto": "https://guanajuato.mx/wp-content/uploads/2025/07/484793124_29886558164268303_360673727809131265_n.jpg"
+    },
+    {
+      "id": "cerro-de-la-bufa",
+      "nombre": "Cerro de La Bufa",
+      "municipio": "Guanajuato",
+      "estado": "Guanajuato",
+      "lat": 20.9944345,
+      "lng": -101.2530902,
+      "descripcion": "Emblemática formación rocosa con senderos de gran pendiente. Es el escenario perfecto para caminatas exigentes de un día, prácticas de rápel y retos técnicos de orientación.",
+      "etiquetas": [
+        {
+          "icono": "fa-mountain",
+          "texto": "RÁPEL"
+        },
+        {
+          "icono": "fa-route",
+          "texto": "SENDERISMO"
+        }
+      ],
+      "color": "blue",
+      "foto": null
+    },
+    {
+      "id": "cerro-del-muerto",
+      "nombre": "Cerro del Muerto",
+      "municipio": "Aguascalientes",
+      "estado": "Aguascalientes",
+      "lat": 21.8700446,
+      "lng": -102.4258425,
+      "descripcion": "Zona montañosa con diferentes rutas, ideal para realizar caminatas de resistencia, senderismo y orientación.",
+      "etiquetas": [
+        {
+          "icono": "fa-running",
+          "texto": "RESISTENCIA"
+        },
+        {
+          "icono": "fa-mountain",
+          "texto": "HIKING"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://i.pinimg.com/originals/bd/9d/03/bd9d03965e4faed84f21332eb5c262bc.jpg?nii=t"
+    },
+    {
+      "id": "cerro-del-cubilete",
+      "nombre": "Cerro del Cubilete",
+      "municipio": "Silao",
+      "estado": "Guanajuato",
+      "lat": 21.0120474,
+      "lng": -101.3691937,
+      "descripcion": "Ruta de montaña con diferentes senderos, ideal para caminatas largas, orientación y actividades de exploración.",
+      "etiquetas": [
+        {
+          "icono": "fa-compass",
+          "texto": "ORIENTACIÓN"
+        },
+        {
+          "icono": "fa-route",
+          "texto": "CAMINATA"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://viajes4dias.com/wp-content/uploads/2024/01/excursion-al-cerro-del-cubilete-y-el-monumento-a-cristo-rey.png"
+    },
+    {
+      "id": "sierra-fria",
+      "nombre": "Sierra Fría",
+      "municipio": "Aguascalientes",
+      "estado": "Aguascalientes",
+      "lat": 22.1670082,
+      "lng": -102.5830887,
+      "descripcion": "Reserva forestal masiva de clima frío. Es el entorno supremo en el Bajío para campamentos de larga duración, pionerismo a gran escala y técnicas avanzadas de vivac.",
+      "etiquetas": [
+        {
+          "icono": "fa-campground",
+          "texto": "CAMPISMO"
+        },
+        {
+          "icono": "fa-tree",
+          "texto": "EXPLORACIÓN"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://www.heraldo.mx/wp-content/uploads/2016/09/sierra-fria-7.jpg"
+    },
+    {
+      "id": "p-n-el-cimatario",
+      "nombre": "P. N. El Cimatario",
+      "municipio": "Querétaro",
+      "estado": "Querétaro",
+      "lat": 20.5269562,
+      "lng": -100.3601507,
+      "descripcion": "Reserva natural con diferentes senderos, ideal para caminatas, actividades ecológicas, rastreo y exploración scout.",
+      "etiquetas": [
+        {
+          "icono": "fa-leaf",
+          "texto": "ECOLOGÍA"
+        },
+        {
+          "icono": "fa-paw",
+          "texto": "LOBATOS"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://mediaim.expedia.com/localexpert/48300243/f09a7547-2e8f-4e18-b969-1a3acf8e1941.jpg?impolicy=fcrop&w=400&h=225&q=mediumLow"
+    },
+    {
+      "id": "bosque-el-peral",
+      "nombre": "Bosque El Peral",
+      "municipio": "San José Iturbide",
+      "estado": "Guanajuato",
+      "lat": 20.9612718,
+      "lng": -100.2879392,
+      "descripcion": "Bosque de coníferas con espacios naturales, ideal para campamentos, senderismo y actividades al aire libre.",
+      "etiquetas": [
+        {
+          "icono": "fa-tree",
+          "texto": "BOSQUE"
+        },
+        {
+          "icono": "fa-fire",
+          "texto": "FOGATAS"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_GIx3HXJStYf0NWtXTqIrxisEiXTgSBtZ-M_iC1gdC1Pr0wnOz5F4Lo&s=10"
+    },
+    {
+      "id": "parque-la-beata",
+      "nombre": "Parque La Beata",
+      "municipio": "Amealco",
+      "estado": "Querétaro",
+      "lat": 20.3130433,
+      "lng": -100.2381558,
+      "descripcion": "Zona boscosa con senderos y áreas naturales, ideal para caminatas, campamentos y actividades de patrulla.",
+      "etiquetas": [
+        {
+          "icono": "fa-map-signs",
+          "texto": "SENDEROS"
+        },
+        {
+          "icono": "fa-users",
+          "texto": "PATRULLAS"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://admin.vsd.mx/wp-content/uploads/2025/07/Parque-Natural-La-Beata-un-refugio-natural-cerca-de-Queretaro.jpg"
+    },
+    {
+      "id": "area-protegida-las-musas",
+      "nombre": "Área Protegida Las Musas",
+      "municipio": "Manuel Doblado",
+      "estado": "Guanajuato",
+      "lat": 20.6359841,
+      "lng": -101.8912324,
+      "descripcion": "Precioso paraje ribereño custodiado por ahuehuetes centenarios. Un espacio fresco idóneo para rallies de Manada, talleres de cabuyería y primeros auxilios al aire libre.",
+      "etiquetas": [
+        {
+          "icono": "fa-water",
+          "texto": "RÍO"
+        },
+        {
+          "icono": "fa-ribbon",
+          "texto": "CABUYERÍA"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://oem.com.mx/elsoldemexico/img/16431360/1661957436/BASE_LANDSCAPE/1200/image.webp"
+    },
+    {
+      "id": "boca-de-tunel",
+      "nombre": "Boca de Túnel",
+      "municipio": "San José de Gracia",
+      "estado": "Aguascalientes",
+      "lat": 22.2353936,
+      "lng": -102.4437842,
+      "descripcion": "Impresionante sistema de cañones y lagunas. Ideal para Clanes de Rovers y Caminantes que busquen retos de altura como puentes colgantes, tirolesas y senderismo técnico.",
+      "etiquetas": [
+        {
+          "icono": "fa-bolt",
+          "texto": "AVENTURA"
+        },
+        {
+          "icono": "fa-graduation-cap",
+          "texto": "ROVERS"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://cdn.mexicodestinos.com/lugares/parque-aventura-boca-de-tunel-aguascalientes-princ-min.jpg"
+    },
+    {
+      "id": "pena-de-bernal",
+      "nombre": "Peña de Bernal",
+      "municipio": "Bernal",
+      "estado": "Querétaro",
+      "lat": 20.748092,
+      "lng": -99.9486163,
+      "descripcion": "Uno de los monolitos más grandes del mundo. Exige un esfuerzo físico demandante de media montaña, ideal para retos de resistencia de la Tropa y ceremonias de sección.",
+      "etiquetas": [
+        {
+          "icono": "fa-mountain",
+          "texto": "MONTAÑA"
+        },
+        {
+          "icono": "fa-star",
+          "texto": "RETO"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLcV04nBM7C2rV3p5JWZHKnziWbm1JgyY8-OeWRh2OW22kiXSpBuPSn6o&s=10"
+    },
+    {
+      "id": "mirador-de-cuatro-palos",
+      "nombre": "Mirador de Cuatro Palos",
+      "municipio": "Pinal de Amoles",
+      "estado": "Querétaro",
+      "lat": 21.0838869,
+      "lng": -99.656566,
+      "descripcion": "Espectacular punto de transición entre el semidesierto y el bosque de niebla. Destino cumbre para pernoctas de observación astronómica y mística scout profunda.",
+      "etiquetas": [
+        {
+          "icono": "fa-eye",
+          "texto": "MÍSTICA"
+        },
+        {
+          "icono": "fa-campground",
+          "texto": "ACAMPADO"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTEvFbwjF9wOOXGhIXgU0Y-iBsAETnlPQ9TX5VbTPdP0DSab9Q7iP342Y&s=10"
+    },
+    {
+      "id": "cerro-el-quijay",
+      "nombre": "Cerro El Quijay",
+      "municipio": "San José Iturbide",
+      "estado": "Guanajuato",
+      "lat": 21.2508486,
+      "lng": -100.507871,
+      "descripcion": "Elevación agreste y semidesértica poco comercial. Perfecta para que secciones mayores tracen sus propios mapas, planifiquen logística de hidratación y pistas de rastreo.",
+      "etiquetas": [
+        {
+          "icono": "fa-compass",
+          "texto": "EXPLORACIÓN"
+        },
+        {
+          "icono": "fa-map",
+          "texto": "TOPOGRAFÍA"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://s1.wklcdn.com/image_499/14975882/215066693/130482418.400x300.jpg"
+    },
+    {
+      "id": "reserva-sierra-gorda",
+      "nombre": "Reserva Sierra Gorda",
+      "municipio": "Querétaro",
+      "estado": "Querétaro",
+      "lat": 21.303419,
+      "lng": -99.4561101,
+      "descripcion": "Inmensa reserva de la biosfera con microclimas extremos. El reto máximo de exploración en el Bajío para expediciones de larga distancia y servicio comunitario.",
+      "etiquetas": [
+        {
+          "icono": "fa-route",
+          "texto": "EXPEDICIÓN"
+        },
+        {
+          "icono": "fa-hands-helping",
+          "texto": "SERVICIO"
+        }
+      ],
+      "color": "blue",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvXPHTobHcBQ-K0G2bP8ZVhOh-__AKvXLuDIkmRcJzu6ASY65TL8g1UQ&s=10"
+    },
+    {
+      "id": "parque-ecologico-las-mariposas",
+      "nombre": "Parque Ecologico Las Mariposas",
+      "municipio": "San Felipe",
+      "estado": "Guanajuato",
+      "lat": 21.392151,
+      "lng": -101.27168,
+      "descripcion": "Zona natural ideal para realizar actividades al aire libre y disfrutar de un entorno ecológico.",
+      "etiquetas": [
+        {
+          "icono": "fa-leaf",
+          "texto": "NATURALEZA"
+        },
+        {
+          "icono": "fa-tree",
+          "texto": "ECOLÓGICO"
+        }
+      ],
+      "color": "green",
+      "foto": "https://guanajuato.mx/wp-content/uploads/2025/07/504333658_4173946226178431_4039456925780816397_n-uai-1536x1536.jpg"
+    }
+  ]
+}
